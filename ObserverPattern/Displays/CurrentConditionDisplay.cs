@@ -4,26 +4,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
- // commit 
+
 namespace ObserverPattern.Displays
 {
-    internal class CurrentConditionDisplay : Observer, DisplayElement
+    internal class CurrentConditionDisplay : WeatherDisplay
     {
-        private float temperature;
-        private float humidity;
         private Subject weatherData;
-        public CurrentConditionDisplay(Subject weatherData) 
+        public CurrentConditionDisplay(Subject weatherData) : base(weatherData)
         { 
             // Set the field and register itself with the weatherdata subject
         }
-        public void Update(float temp, float humidity, float pressure)
-        {
-            // Set the correct fields with the relevant parameters
-            Display();
-        }
 
-        public void Display()
+        public override void Display()
         {
+            Console.WriteLine($"Current conditions: {temperature}F degrees, {humidity}% humidity and {pressure} pressure");
             // Print the current conditions of the weather
         }
     }
