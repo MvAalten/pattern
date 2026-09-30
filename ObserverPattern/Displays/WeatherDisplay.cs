@@ -13,8 +13,7 @@ namespace ObserverPattern.Displays
         protected float humidity;
         protected float pressure;
         private Subject weatherData;
-        
-        public WeatherDisplay(Subject weatherData) 
+        public WeatherDisplay(Subject weatherData)
         { 
             weatherData.RegisterObserver(this);
             // Set the field and register itself with the weatherdata subject
