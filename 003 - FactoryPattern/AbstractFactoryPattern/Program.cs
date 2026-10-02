@@ -1,3 +1,4 @@
+using AbstractFactoryPattern.BeverageFactory;
 using AbstractFactoryPattern.Beverages;
 
 namespace AbstractFactoryPattern
@@ -6,18 +7,19 @@ namespace AbstractFactoryPattern
     {
         static void Main(string[] args)
         {
-            CoffeeShop shop = new ItalianCoffeeShop(new StandardIngredientFactory());
+            BeverageStore Starbuzz = new Starbuzz();
 
-            foreach (CoffeeMix mix in Enum.GetValues(typeof(CoffeeMix)))
-            {
-                Beverage beverage = shop.OrderBeverage(mix);
-                PrintBeverage(mix, beverage);
-            }
+            PrintBeverage(Starbuzz.OrderBeverage("espresso", Size.TALL));
+            PrintBeverage(Starbuzz.OrderBeverage("doppio", Size.GRANDE));
+            PrintBeverage(Starbuzz.OrderBeverage("lungo", Size.VENDI));
+            PrintBeverage(Starbuzz.OrderBeverage("macchiato", Size.VENDI));
+            PrintBeverage(Starbuzz.OrderBeverage("corretta", Size.GRANDE));
+            PrintBeverage(Starbuzz.OrderBeverage("conpanna", Size.GRANDE));
         }
 
-        static void PrintBeverage(CoffeeMix mix, Beverage beverage)
+        static void PrintBeverage(Beverage beverage)
         {
-            Console.WriteLine(mix + ": " + beverage.GetDescription() + " $" + beverage.cost().ToString("#.##"));
+            Console.WriteLine(beverage.GetDescription() + " $" + beverage.cost().ToString("#.##"));
         }
     }
 }
