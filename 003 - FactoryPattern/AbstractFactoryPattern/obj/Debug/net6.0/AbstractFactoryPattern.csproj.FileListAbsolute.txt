@@ -1,0 +1,15 @@
+/home/mees/Projects/design_patterns/003 - FactoryPattern/AbstractFactoryPattern/bin/Debug/net6.0/AbstractFactoryPattern
+/home/mees/Projects/design_patterns/003 - FactoryPattern/AbstractFactoryPattern/bin/Debug/net6.0/AbstractFactoryPattern.deps.json
+/home/mees/Projects/design_patterns/003 - FactoryPattern/AbstractFactoryPattern/bin/Debug/net6.0/AbstractFactoryPattern.runtimeconfig.json
+/home/mees/Projects/design_patterns/003 - FactoryPattern/AbstractFactoryPattern/bin/Debug/net6.0/AbstractFactoryPattern.dll
+/home/mees/Projects/design_patterns/003 - FactoryPattern/AbstractFactoryPattern/bin/Debug/net6.0/AbstractFactoryPattern.pdb
+/home/mees/Projects/design_patterns/003 - FactoryPattern/AbstractFactoryPattern/obj/Debug/net6.0/AbstractFactoryPattern.GeneratedMSBuildEditorConfig.editorconfig
+/home/mees/Projects/design_patterns/003 - FactoryPattern/AbstractFactoryPattern/obj/Debug/net6.0/AbstractFactoryPattern.AssemblyInfoInputs.cache
+/home/mees/Projects/design_patterns/003 - FactoryPattern/AbstractFactoryPattern/obj/Debug/net6.0/AbstractFactoryPattern.AssemblyInfo.cs
+/home/mees/Projects/design_patterns/003 - FactoryPattern/AbstractFactoryPattern/obj/Debug/net6.0/AbstractFactoryPattern.csproj.CoreCompileInputs.cache
+/home/mees/Projects/design_patterns/003 - FactoryPattern/AbstractFactoryPattern/obj/Debug/net6.0/AbstractFactoryPattern.sourcelink.json
+/home/mees/Projects/design_patterns/003 - FactoryPattern/AbstractFactoryPattern/obj/Debug/net6.0/AbstractFactoryPattern.dll
+/home/mees/Projects/design_patterns/003 - FactoryPattern/AbstractFactoryPattern/obj/Debug/net6.0/refint/AbstractFactoryPattern.dll
+/home/mees/Projects/design_patterns/003 - FactoryPattern/AbstractFactoryPattern/obj/Debug/net6.0/AbstractFactoryPattern.pdb
+/home/mees/Projects/design_patterns/003 - FactoryPattern/AbstractFactoryPattern/obj/Debug/net6.0/AbstractFactoryPattern.genruntimeconfig.cache
+/home/mees/Projects/design_patterns/003 - FactoryPattern/AbstractFactoryPattern/obj/Debug/net6.0/ref/AbstractFactoryPattern.dll

@@ -6,11 +6,11 @@ namespace AbstractFactoryPattern
     {
         static void Main(string[] args)
         {
-            CoffeeFactory factory = new CoffeeFactory();
+            CoffeeShop shop = new ItalianCoffeeShop(new StandardIngredientFactory());
 
             foreach (CoffeeMix mix in Enum.GetValues(typeof(CoffeeMix)))
             {
-                Beverage beverage = factory.CreateBeverage(mix);
+                Beverage beverage = shop.OrderBeverage(mix);
                 PrintBeverage(mix, beverage);
             }
         }
