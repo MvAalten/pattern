@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "l+6JdFkI4Qsp5hQam40zR/L+UESKjz8cbwDMiLLe84j84labPjjGYXCBmreTJNXTpWpODedVD7NmW+iV93Cj5Q==",
+  "dgSpecHash": "njYKlIXrOvU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rnieuwkoop\\OneDrive - ROC Nijmegen\\Software Development\\API 3 - Design Patterns\\Source code\\DesignPatterns\\Singleton\\SingletonPattern.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/mees/Projects/design_patterns/Singleton/SingletonPattern.csproj",
+  "expectedPackageFiles": [
+    "/home/mees/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "/home/mees/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.36/microsoft.netcore.app.host.linux-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }
